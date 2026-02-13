@@ -11,7 +11,6 @@ const registerUser = async (req, res) => {
       success: false,
       message: error.message || "Internal Server Error",
     });
-    // return res.status(500).json({ error: error.message });
   }
 };
 
@@ -26,7 +25,6 @@ const loginUser = async (req, res) => {
       success: false,
       message: error.message || "Internal Server Error",
     });
-    // return res.status(500).json({ error: error.message });
   }
 };
 

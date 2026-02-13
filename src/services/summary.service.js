@@ -54,15 +54,7 @@ const getSummary = async (userId) => {
         ? "Saving Target Achieved"
         : "Saving Target Pending",
   };
-  // const getSummary = await Transaction.aggregate([
-  //   {
-  //     $group: {
-  //       _id: "$type",
-  //       total: { $sum: "$amount" },
-  //     },
-  //   },
-  // ]);
-  // return getSummary;
+
 };
 
 module.exports = {
